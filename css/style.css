@@ -1,0 +1,54 @@
+body{
+    background-image: url('../img/pexels-felix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: Impact;
+    color: #1459b3;
+    margin-top: 10%;
+}
+span{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: #ffffffff;
+    animation: glow 1000ms infinite alternate;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 10px #1877f2,
+                     0 0 20px #1459b3,
+                     0 0 30px #179bff; 
+    }
+    to{
+        text-shadow: 0 0 5px #1877f2,
+                     0 0 10px #1459b3,
+                     0 0 15px #179bff;
+    }
+}
+p{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color:#1877f2;
+    
+}
+
+button{
+    width: 250px;
+    height: 80px;
+    background-color: #5587;
+    color: white;
+    transition: all 0.5;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    font-size: 16px;
+    border-radius: 5%;
+    
+}
+  
